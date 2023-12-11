@@ -1,12 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
+import image1 from '../../../public/image/project2.png'
+import image2 from '../../../public/image/project.png'
+import image3 from '../../../public/image/project1.png'
+
 
 const Project = () => {
     return (
         <div className='bg-[#0c1829]'>
             <div className="hero min-h-screen bg-[#0c1829]">
   <div className="hero-content flex-col lg:flex-row">
-    <img src="../../../public/image/project.png" className="max-w-sm rounded-lg shadow-2xl mr-0 md:mr-0   lg:mr-48" />
+    <img src={image2} className="max-w-sm rounded-lg shadow-2xl " />
     <div className=' w-[500px]'>
       <h1 className="text-5xl font-bold text-[#FFFFFF]">Tour And Guide</h1>
       <p className="py-6 w-[500px] text-[#FFFFFF]">Tour-And-Guide is an Ecommerce Website.Where user,admin and tour-guide dashboard feature added and also integrated payment system with stripe method.</p>
@@ -53,10 +56,10 @@ Technologies Used:React.js, Material-UI, JavaScript, HTML, Material UI, Express.
     </div>
   </div>
 </div>
-<div className="hero min-h-screen bg-[#0c1829] -mt-18">
+<div className="hero min-h-screen bg-[#0c1829] -mt-0 md:-mt-18 lg:-mt-48">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="../../../public/image/project1.png" className="max-w-sm rounded-lg shadow-2xl" />
-    <div className='lg:mr-48'>
+    <img src={image3} className="max-w-sm rounded-lg shadow-2xl" />
+    <div className=''>
       <h1 className="text-5xl font-bold text-[#FFFFFF]">Local Tour Guide</h1>
       <p className="py-6 w-[500px] text-[#FFFFFF]">Local Tour is a tour service based website.In this website user can book tour according their Choice.Dasboard feature are added where can manage and add tours</p>
       <button className="btn bg-[#c5a7a4] text-[#0c1829]" onClick={()=>document.getElementById('my_modal_7').showModal()}>Explore More</button>
@@ -100,9 +103,9 @@ Technology Used:React.js, JavaScript (JS), Mamba UI, HTML, CSS3, Express.js, Mon
     </div>
   </div>
 </div>
-<div className="hero min-h-screen bg-[#0c1829] -mt-18">
+<div className="hero min-h-screen bg-[#0c1829] -mt-0 md:-mt-18 lg:-mt-48">
   <div className="hero-content flex-col lg:flex-row">
-    <img src="../../../public/image/project2.png" className="max-w-sm rounded-lg shadow-2xl lg:mr-48" />
+    <img src={image1} className="max-w-sm rounded-lg shadow-2xl " />
     <div>
       <h1 className="text-5xl font-bold text-[#FFFFFF]">ReMerce</h1>
       <p className="py-6 w-[500px] text-[#FFFFFF]">BrandShop is a website based on with some popular branded.Add to cart feature are added and user can update and delete the product.Authentication are added.</p>
