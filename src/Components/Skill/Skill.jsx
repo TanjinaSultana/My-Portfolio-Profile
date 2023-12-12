@@ -16,7 +16,7 @@ const Skill = () => {
             </div>
             <div className="carousel w-full mt-10">
   <div id="slide1" className="carousel-item relative w-full">
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+    <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4'>
 
     <img src={skill1} className="w-full " />
     <img src={skill2} className="w-full " />
@@ -34,7 +34,7 @@ const Skill = () => {
     </div>
   </div> 
   <div id="slide2" className="carousel-item relative w-full">
-  <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+  <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4'>
 
   <img src={skill1} className="w-full " />
     <img src={skill2} className="w-full " />
@@ -51,7 +51,7 @@ const Skill = () => {
     </div>
   </div> 
   <div id="slide3" className="carousel-item relative w-full">
-  <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+  <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4'>
 
   <img src={skill1} className="w-full " />
     <img src={skill2} className="w-full " />
@@ -68,7 +68,7 @@ const Skill = () => {
     </div>
   </div> 
   <div id="slide4" className="carousel-item relative w-full">
-  <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+  <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4'>
 
   <img src={skill1} className="w-full " />
     <img src={skill2} className="w-full " />
