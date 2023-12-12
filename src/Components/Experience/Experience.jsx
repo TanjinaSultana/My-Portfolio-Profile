@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <div className="bg-[#0c1829]">
             <h1 className="text-3xl font-bold flex justify-center bg-[#0c1829] text-[#FFFFFF] ">Experience </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
             <div className="card w-96 bg-base-100 shadow-xl image-full">
   <figure><img src={img1} alt="Shoes" /></figure>
   <div className="card-body">

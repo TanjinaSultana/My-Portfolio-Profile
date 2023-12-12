@@ -9,7 +9,7 @@ const Project = () => {
         <div className='bg-[#0c1829]'>
             <div className="hero min-h-screen bg-[#0c1829]">
   <div className="hero-content flex-col lg:flex-row">
-    <img src={image2} className="max-w-sm rounded-lg shadow-2xl " />
+    <img src={image2} className="max-w-full lg:w-[500px] rounded-lg shadow-2xl " />
     <div className=' w-[500px]'>
       <h1 className="text-5xl font-bold text-[#FFFFFF]">Tour And Guide</h1>
       <p className="py-6 w-[500px] text-[#FFFFFF]">Tour-And-Guide is an Ecommerce Website.Where user,admin and tour-guide dashboard feature added and also integrated payment system with stripe method.</p>
@@ -58,7 +58,7 @@ Technologies Used:React.js, Material-UI, JavaScript, HTML, Material UI, Express.
 </div>
 <div className="hero min-h-screen bg-[#0c1829] -mt-0 md:-mt-18 lg:-mt-48">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src={image3} className="max-w-sm rounded-lg shadow-2xl" />
+    <img src={image3} className=" max-w-full lg:w-[500px] rounded-lg shadow-2xl" />
     <div className=''>
       <h1 className="text-5xl font-bold text-[#FFFFFF]">Local Tour Guide</h1>
       <p className="py-6 w-[500px] text-[#FFFFFF]">Local Tour is a tour service based website.In this website user can book tour according their Choice.Dasboard feature are added where can manage and add tours</p>
@@ -105,7 +105,7 @@ Technology Used:React.js, JavaScript (JS), Mamba UI, HTML, CSS3, Express.js, Mon
 </div>
 <div className="hero min-h-screen bg-[#0c1829] -mt-0 md:-mt-18 lg:-mt-48">
   <div className="hero-content flex-col lg:flex-row">
-    <img src={image1} className="max-w-sm rounded-lg shadow-2xl " />
+    <img src={image1} className="max-w-full lg:w-[500px] rounded-lg shadow-2xl " />
     <div>
       <h1 className="text-5xl font-bold text-[#FFFFFF]">ReMerce</h1>
       <p className="py-6 w-[500px] text-[#FFFFFF]">BrandShop is a website based on with some popular branded.Add to cart feature are added and user can update and delete the product.Authentication are added.</p>
