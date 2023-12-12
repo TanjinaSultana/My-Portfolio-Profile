@@ -17,9 +17,10 @@ const Contact = () => {
         });
     };
     return (
-        <div >
-          
-  <div className="hero min-h-screen bg-[#0c1829] ">
+        <div className='bg-[#0c1829]'>
+           <h1 className="text-3xl font-bold flex justify-center bg-[#0c1829] text-[#FFFFFF] ">Contact </h1>
+  <div className="hero min-h-screen bg-[#0c1829]  ">
+ 
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-xl text-[#FFFFFF] font-bold">My Contacts!</h1>
@@ -52,6 +53,7 @@ const Contact = () => {
 </svg>
 <span className='font-base'>+8801641715275</span>
 </a>
+      
   </nav> 
       </p>
     </div>

@@ -7,6 +7,7 @@ const Navbar = () => {
      <li><a className='bg-[#c5a7a4] mr-4'> <NavLink to={"/"} className="text-[#0c1829] font-medium">Home</NavLink></a></li>
      <li><a className='bg-[#c5a7a4] mr-4'> <NavLink to={"/about"} className="text-[#0c1829] font-medium">About</NavLink></a></li>
      <li><a className='bg-[#c5a7a4] mr-4'> <NavLink to={"/skill"} className="text-[#0c1829] font-medium">Skills</NavLink></a></li>
+     <li><a className='bg-[#c5a7a4] mr-4'> <NavLink to={"/experience"} className="text-[#0c1829] font-medium">Experience</NavLink></a></li>
      <li><a className='bg-[#c5a7a4] mr-4'> <NavLink to={"/project"} className="text-[#0c1829] font-medium">Projects</NavLink></a></li>
      <li><a className='bg-[#c5a7a4] mr-4'> <NavLink to={"/contact"} className="text-[#0c1829] font-medium">Contact</NavLink></a></li>
    
