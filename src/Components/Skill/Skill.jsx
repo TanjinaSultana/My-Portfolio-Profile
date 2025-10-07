@@ -86,10 +86,10 @@ const Skill = () => {
 //   </div>
 // </div>
 //             </div>
-<div className="bg-[#0c1829] py-10">
+<div className="bg-[#0c1829] py-4">
   {/* Heading */}
   <div className="flex justify-center items-center">
-    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-10">Skills</h1>
+    <h1 className="text-2xl sm:text-5xl font-bold text-white mb-10 text-center">Skills</h1>
   </div>
 
   {/* Carousel */}

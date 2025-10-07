@@ -41,7 +41,7 @@ const Experience = () => {
 //         </div>
 <div className="bg-[#0c1829] py-10 px-4 sm:px-6 lg:px-20">
   {/* Heading */}
-  <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-10">
+  <h1 className="text-2xl sm:text-5xl font-bold text-white mb-10 text-center">
     Experience
   </h1>
 
@@ -57,9 +57,9 @@ const Experience = () => {
 
     {/* Text Content */}
     <div className="text-white text-center md:text-left">
-      <h2 className="text-2xl sm:text-3xl font-bold mb-2">Web Instructor Intern</h2>
-      <h3 className="text-lg sm:text-xl font-semibold mb-4">TS4U Michigan | 6 Months Internship</h3>
-      <p className="text-sm sm:text-base md:text-lg">
+      <h2 className="text-xl sm:text-3xl font-bold mb-2">Web Instructor Intern</h2>
+      <h3 className="text-base sm:text-xl font-semibold mb-4">TS4U Michigan | 6 Months Internship</h3>
+      <p className="text-xs sm:text-base md:text-lg">
         During my 6-month internship at TS4U Michigan as a Web Instructor, I guided students through web development concepts, helped them solve coding problems, and assisted in building projects using HTML, CSS, JavaScript, and React.js. This experience enhanced my teaching, problem-solving, and mentoring skills while deepening my understanding of web technologies.
       </p>
     </div>

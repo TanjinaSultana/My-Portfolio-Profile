@@ -20,31 +20,32 @@ const About = () => {
 
 //         </div>
 
-<div className="bg-[#0c1829] min-h-screen px-4 sm:px-6 lg:px-20 py-10">
 
-  {/* Fixed heading */}
-  <div className="flex justify-center items-center">
-    <h1 className="text-4xl sm:text-5xl font-bold text-white mb-10">About</h1>
-  </div>
+<div className="bg-[#0c1829] min-h-screen px-4 sm:px-6 lg:px-20 py-10 flex flex-col items-center justify-center">
+
+  {/* Heading */}
+  <h1 className="text-2xl sm:text-5xl font-bold text-white mb-10 text-center">About</h1>
+
 
   {/* Hero content */}
-  <div className="hero min-h-screen flex flex-col lg:flex-row-reverse items-center lg:items-start gap-8">
+  <div className="flex flex-col lg:flex-row items-center gap-8 w-full max-w-6xl">
 
     {/* Image */}
     <img 
       src={image} 
       alt="Tanjina Sultana" 
-      className="rounded-lg shadow-2xl w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-[400px] lg:h-[400px] object-cover"
+      className="rounded-lg shadow-2xl w-40 sm:w-48 md:w-64 lg:w-[400px] lg:h-[400px] object-cover"
     />
 
     {/* Text and Button */}
-    <div className="text-white font-normal w-full sm:w-[400px] text-center lg:text-left flex flex-col items-center lg:items-start">
-      <p className="py-4 sm:py-6 text-base sm:text-lg md:text-xl">
+    <div className="text-white font-normal text-center lg:text-left flex flex-col items-center lg:items-start w-full sm:w-[400px]">
+      <p className="py-4 text-sm sm:text-base md:text-lg">
         Assalamualaykum! I am Tanjina Sultana, a passionate frontend developer with a flair for transforming imaginative ideas into captivating digital experiences. My journey in the world of coding began with a curiosity to bridge the gap between creativity and technology.
       </p>
-      <button className="btn bg-[#c5a7a4] text-[#0c1829] px-6 py-2 text-base sm:text-lg mt-4">
-        Hire me
-      </button>
+      <button className="btn bg-[#c5a7a4] text-[#0c1829] px-4 py-1.5 text-sm sm:px-6 sm:py-2 sm:text-base mt-4">
+  Hire me
+</button>
+
     </div>
 
   </div>
