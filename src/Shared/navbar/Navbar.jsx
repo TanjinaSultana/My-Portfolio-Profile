@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
 const Navbar = () => {
     const menu= <>
      <li><a className='bg-[#c5a7a4] mr-4'> <NavLink to={"/"} className="text-[#0c1829] font-medium">Home</NavLink></a></li>
@@ -40,6 +41,9 @@ const Navbar = () => {
   </div>
 </div>
         </div>
+
+
+   
     );
 };
 
